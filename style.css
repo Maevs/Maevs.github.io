@@ -61,3 +61,7 @@
 .more-btn{
 	padding-left:20px;
 }
+
+table.inform { background-color:#E8D486; width:900px; border-collapse:collapse; }
+table.inform td  { border:1px solid #D07100; padding:2px; font-size:18px; font-weight:normal; color:#000000; }
+table.inform td.shapka { background-color:#DFB923; }
