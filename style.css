@@ -65,6 +65,25 @@
   margin-top: 30px;
 }
 
+.item-check {
+    font-family: 'GothamProBold', sans-serif;
+    position: relative;
+    padding: 9px 19px 9px 28px;
+    font-weight: bold;
+    color: #000;
+}
+.item-check:after {
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    line-height: 1;
+    font-size: 20px;
+    color: #fdb822;
+    content: '\f00c';
+}
+
 table.inform { background-color:#E8D486; width:900px; border-collapse:collapse; }
 table.inform td  { border:1px solid #D07100; padding:2px; font-size:18px; font-weight:normal; color:#000000; }
 table.inform td.shapka { background-color:#DFB923; }
